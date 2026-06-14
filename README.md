@@ -2,7 +2,7 @@
 
 A production-grade Collaborative Filtering recommendation engine built entirely from scratch using pure NumPy. This project implements Matrix Factorization via Alternating Least Squares (ALS) to predict user-item ratings, explicitly avoiding black-box machine learning frameworks like `scikit-learn` to demonstrate core mathematical competency.
 
-### 🚀 Performance Metric
+###  Performance Metric
 
 - **Dataset:** MovieLens 1M (1 million discrete ratings across 6,000 users and 4,000 movies)
 - **Evaluation:** Evaluated against a native Singular Value Decomposition (SVD) baseline
@@ -10,7 +10,7 @@ A production-grade Collaborative Filtering recommendation engine built entirely 
 
 ---
 
-## 📊 Training Convergence vs. Baseline
+##  Training Convergence vs. Baseline
 
 ![ALS Performance vs SVD Baseline](als_vs_svd_performance.png)
 
@@ -18,7 +18,7 @@ A production-grade Collaborative Filtering recommendation engine built entirely 
 
 ---
 
-## 🧠 The Mathematics & Architecture
+##  The Mathematics & Architecture
 
 Unlike standard Gradient Descent, ALS natively handles massively sparse matrices by alternating between fixing the User matrix ($U$) and the Item matrix ($V$), solving a series of strictly convex Ridge Regression problems.
 
@@ -38,7 +38,7 @@ Unlike standard Gradient Descent, ALS natively handles massively sparse matrices
 
 ---
 
-## 💻 Tech Stack
+##  Tech Stack
 
 - Python 3.x
 - NumPy (Core Matrix Operations & Linear Algebra)
@@ -47,7 +47,7 @@ Unlike standard Gradient Descent, ALS natively handles massively sparse matrices
 
 ---
 
-## ⚙️ How to Run Locally
+##  How to Run Locally
 
 ### 1. Clone the Repository
 
@@ -70,7 +70,7 @@ python als_recommender.py
 
 ---
 
-## 📈 Model Highlights
+##  Model Highlights
 
 - Built entirely from scratch without machine learning frameworks
 - Handles large sparse rating matrices efficiently using ALS
@@ -80,6 +80,6 @@ python als_recommender.py
 
 ---
 
-## 🎯 Key Takeaway
+##  Key Takeaway
 
 This project demonstrates a complete understanding of recommendation system fundamentals, matrix factorization, numerical optimization, and scalable linear algebra implementations. By building ALS from first principles using only NumPy, the implementation showcases both mathematical rigor and production-oriented engineering practices.
