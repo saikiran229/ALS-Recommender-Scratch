@@ -14,6 +14,8 @@ A production-grade Collaborative Filtering recommendation engine built entirely 
 
 ![ALS Performance vs SVD Baseline](als_vs_svd_performance.png)
 
+![training_data_and_parameters](training_data_and_parameters.png)
+
 *The model steadily minimizes root mean square error across 20 epochs, proving mathematical convergence and successfully mapping the latent features.*
 
 ---
